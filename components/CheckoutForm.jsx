@@ -91,7 +91,7 @@ onSuccessfulCheckout();
       </Row>
       {checkoutError && <CheckoutError>{checkoutError}</CheckoutError>}
       <Row>
-        <SubmitButton disabled={isProcessing}>//dis.. wylacza ponowne uzycie przycisku
+        <SubmitButton disabled={isProcessing}>
           {isProcessing ? "Processing..." : `Pay $${price}`}
         </SubmitButton>
       </Row>
