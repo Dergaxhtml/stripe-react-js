@@ -14,6 +14,9 @@
 
 - you will need to sign up for a Stripe account if you haven't already: [stripe.com/register](https://stripe.com/register)
 - you will need to add your account's secret key and publishable key to the `next.config.js` file
+- create file .env in repo with keys from account: 
+        PUBLISHABLE_KEY=...
+        SECRET_KEY=...
 
 ### Credit Card Input Design Requirements
 
